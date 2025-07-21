@@ -11,6 +11,5 @@ function mask($stringToMask)
     return $maskedPart . $visiblePart;
 }
 
-#вывод в консоли
 $stringToMask = trim(fgets(STDIN));
 echo mask($stringToMask) . PHP_EOL;
